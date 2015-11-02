@@ -101,6 +101,7 @@
     </Compile>
     <Compile Include="Base\ObservableObject.cs" />
     <Compile Include="Base\ServiceLocator.cs" />
+    <Compile Include="Services\HttpService.cs" />
     <Compile Include="Services\NavigationService.cs" />
     <Compile Include="Services\NavigationServiceConfiguration.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />

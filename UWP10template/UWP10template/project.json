@@ -5,6 +5,7 @@
     "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "MvvmLight": "5.2.0",
+    "Newtonsoft.Json": "8.0.1-beta1",
     "Unity": "4.0.1"
   },
   "frameworks": {

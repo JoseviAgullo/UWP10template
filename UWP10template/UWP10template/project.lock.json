@@ -260,6 +260,14 @@
           "lib/windows81/GalaSoft.MvvmLight.Platform.dll": {}
         }
       },
+      "Newtonsoft.Json/8.0.1-beta1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.0, )",
@@ -1594,6 +1602,19 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Unity/4.0.1": {
+        "dependencies": {
+          "CommonServiceLocator": "[1.3.0, )"
+        },
+        "compile": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-arm": {
@@ -1895,6 +1916,14 @@
           "lib/windows81/GalaSoft.MvvmLight.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Extras.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Platform.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.1-beta1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3278,6 +3307,19 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Unity/4.0.1": {
+        "dependencies": {
+          "CommonServiceLocator": "[1.3.0, )"
+        },
+        "compile": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
@@ -3565,6 +3607,14 @@
           "lib/windows81/GalaSoft.MvvmLight.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Extras.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Platform.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.1-beta1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -4933,6 +4983,19 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "dependencies": {
+          "CommonServiceLocator": "[1.3.0, )"
+        },
+        "compile": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
         }
       }
     },
@@ -5242,6 +5305,14 @@
           "lib/windows81/GalaSoft.MvvmLight.Platform.dll": {}
         }
       },
+      "Newtonsoft.Json/8.0.1-beta1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.0, )",
@@ -6623,6 +6694,19 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Unity/4.0.1": {
+        "dependencies": {
+          "CommonServiceLocator": "[1.3.0, )"
+        },
+        "compile": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
@@ -6910,6 +6994,14 @@
           "lib/windows81/GalaSoft.MvvmLight.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Extras.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Platform.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.1-beta1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8278,6 +8370,19 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "dependencies": {
+          "CommonServiceLocator": "[1.3.0, )"
+        },
+        "compile": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
         }
       }
     },
@@ -8587,6 +8692,14 @@
           "lib/windows81/GalaSoft.MvvmLight.Platform.dll": {}
         }
       },
+      "Newtonsoft.Json/8.0.1-beta1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.0, )",
@@ -9968,6 +10081,19 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Unity/4.0.1": {
+        "dependencies": {
+          "CommonServiceLocator": "[1.3.0, )"
+        },
+        "compile": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
@@ -10255,6 +10381,14 @@
           "lib/windows81/GalaSoft.MvvmLight.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Extras.dll": {},
           "lib/windows81/GalaSoft.MvvmLight.Platform.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.1-beta1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11623,6 +11757,19 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "dependencies": {
+          "CommonServiceLocator": "[1.3.0, )"
+        },
+        "compile": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/win8/Microsoft.Practices.Unity.dll": {},
+          "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
         }
       }
     }
@@ -12491,6 +12638,29 @@
         "lib/xamarin.ios10/GalaSoft.MvvmLight.XML",
         "MvvmLightLibs.nuspec",
         "package/services/metadata/core-properties/2416d2969a834c638aba3851d652cc13.psmdcp"
+      ]
+    },
+    "Newtonsoft.Json/8.0.1-beta1": {
+      "sha512": "2SKuwiPQLrHLy0IbGVpj3KFmQereEKmfa+FGyulXUR9x6o+bWYjMfK0K5nqFbe4s/TGy/CPbuF7UfYdsrMhfYQ==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.nuspec",
+        "package/services/metadata/core-properties/dc1c874dce244376a7695dc1c580b234.psmdcp",
+        "tools/install.ps1"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -15187,6 +15357,34 @@
         "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll",
         "System.Xml.XmlSerializer.nuspec"
       ]
+    },
+    "Unity/4.0.1": {
+      "sha512": "RHFTCW13E186hCI0Z4R47tl2SyxQOp3TNaBlilxKktO+u+NUWyOK/nPJ25PWwgPh4j4/GM46PQszSsusui+ikw==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net45/Microsoft.Practices.Unity.Configuration.dll",
+        "lib/net45/Microsoft.Practices.Unity.Configuration.XML",
+        "lib/net45/Microsoft.Practices.Unity.dll",
+        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/net45/Microsoft.Practices.Unity.xml",
+        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.dll",
+        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.xml",
+        "lib/win8/Microsoft.Practices.Unity.dll",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.pri",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/win8/Microsoft.Practices.Unity.xml",
+        "lib/wp80/Microsoft.Practices.Unity.dll",
+        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/wp80/Microsoft.Practices.Unity.xml",
+        "package/services/metadata/core-properties/924820f073a54dfda4a033e3efb68c3c.psmdcp",
+        "Unity.nuspec",
+        "UnityConfiguration30.xsd"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -15195,7 +15393,9 @@
       "Microsoft.ApplicationInsights.PersistenceChannel >= 1.0.0",
       "Microsoft.ApplicationInsights.WindowsApps >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "MvvmLight >= 5.2.0"
+      "MvvmLight >= 5.2.0",
+      "Newtonsoft.Json >= 8.0.1-beta1",
+      "Unity >= 4.0.1"
     ],
     "UAP,Version=v10.0": []
   }
