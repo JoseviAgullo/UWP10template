@@ -21,6 +21,7 @@
             // ViewModels
             this.container.RegisterType<ShellViewModel>();
             this.container.RegisterType<MainViewModel>();
+            this.container.RegisterType<AboutViewModel>();
         }
 
         /// <summary>
@@ -37,6 +38,14 @@
         public MainViewModel MainViewModel
         {
             get { return this.container.Resolve<MainViewModel>(); }
+        }
+
+        /// <summary>
+        /// Gets an instance of <see cref="AboutViewModel"/>
+        /// </summary>
+        public AboutViewModel AboutViewModel
+        {
+            get { return this.container.Resolve<AboutViewModel>(); }
         }
     }
 }

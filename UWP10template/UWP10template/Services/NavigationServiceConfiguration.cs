@@ -17,6 +17,7 @@
         {
             { typeof(ShellViewModel), typeof(Shell) },
             { typeof(MainViewModel), typeof(MainPage) },
+            { typeof(AboutViewModel), typeof(AboutPage) },
         };
     }
 }

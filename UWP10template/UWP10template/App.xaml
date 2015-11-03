@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:UWP10template"
     xmlns:base="using:UWP10template.Base"
-    RequestedTheme="Light">
+    RequestedTheme="Dark">
     <Application.Resources>
         <base:ServiceLocator x:Key="Locator" />
         <SolidColorBrush  x:Key="JustOneShadeOfGray"
