@@ -15,7 +15,8 @@
         /// </summary>
         public IDictionary<Type, Type> routingDictionary = new Dictionary<Type, Type>()
         {
-            { typeof(MainViewModel), typeof(MainPage) }
+            { typeof(ShellViewModel), typeof(Shell) },
+            { typeof(MainViewModel), typeof(MainPage) },
         };
     }
 }

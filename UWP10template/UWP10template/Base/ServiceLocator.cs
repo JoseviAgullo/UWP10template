@@ -19,7 +19,16 @@
             this.container.RegisterType<NavigationService>();
 
             // ViewModels
+            this.container.RegisterType<ShellViewModel>();
             this.container.RegisterType<MainViewModel>();
+        }
+
+        /// <summary>
+        /// Gets an instance of <see cref="ShellViewModel"/>
+        /// </summary>
+        public ShellViewModel ShellViewModel
+        {
+            get { return this.container.Resolve<ShellViewModel>(); }
         }
 
         /// <summary>

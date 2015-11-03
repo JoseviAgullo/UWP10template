@@ -3,6 +3,11 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:UWP10template"
+    xmlns:base="using:UWP10template.Base"
     RequestedTheme="Light">
-
+    <Application.Resources>
+        <base:ServiceLocator x:Key="Locator" />
+        <SolidColorBrush  x:Key="JustOneShadeOfGray"
+                          Color="LightSlateGray" />
+    </Application.Resources>
 </Application>

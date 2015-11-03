@@ -7,34 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
-               CompactPaneLength="50" OpenPaneLength="150" Background="LightGray">
-        <SplitView.Pane>
-            <StackPanel Background="Gray">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE825;"
-                    Width="50" Height="50" Background="Transparent"/>
-                    <TextBlock Text="Button 1" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
-                        Width="50" Height="50" Background="Transparent"/>
-                    <TextBlock Text="Button 2" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
-                        Width="50" Height="50" Background="Transparent"/>
-                    <TextBlock Text="Button 3" FontSize="18" VerticalAlignment="Center" />
-                </StackPanel>
-            </StackPanel>
-        </SplitView.Pane>
-        <SplitView.Content>
-            <Grid>
-                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="White"
-                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Grid>
-        </SplitView.Content>
-    </SplitView>
+    <Grid Background="GreenYellow">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="Title" Grid.Row="0" Margin="50, 0, 0, 0">
+            <TextBlock Text="Test" FontSize="{StaticResource HubHeaderThemeFontSize}"
+                   Foreground="BlueViolet"/>
+        </Grid>
+        
+    </Grid>
 </Page>
