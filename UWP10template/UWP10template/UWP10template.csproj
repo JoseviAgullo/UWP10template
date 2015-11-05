@@ -96,13 +96,16 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\UWPClient.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Base\ContinuationManager.cs" />
     <Compile Include="Base\DelegateCommand.cs" />
     <Compile Include="Base\ObservableObject.cs" />
     <Compile Include="Base\ServiceLocator.cs" />
     <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\TokenRequest.cs" />
     <Compile Include="Services\HttpService.cs" />
     <Compile Include="Services\NavigationService.cs" />
     <Compile Include="Services\NavigationServiceConfiguration.cs" />
@@ -129,6 +132,9 @@
     <None Include="UWP10template_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\SplashScreen2.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

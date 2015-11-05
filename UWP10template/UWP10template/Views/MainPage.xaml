@@ -24,7 +24,10 @@
         
         <Grid x:Name="Body"
               Grid.Row="1">
-            
+            <Button Content="Log in" 
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Click="ButtonBase_OnClick"/>
         </Grid>
         
     </Grid>

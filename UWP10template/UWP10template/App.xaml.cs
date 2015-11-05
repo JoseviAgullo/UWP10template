@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using UWP10template.Base;
 using UWP10template.Views;
 
 namespace UWP10template
@@ -47,7 +48,7 @@ namespace UWP10template
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+                this.DebugSettings.EnableFrameRateCounter = false;
             }
 #endif
 
@@ -105,5 +106,7 @@ namespace UWP10template
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+        
     }
 }
