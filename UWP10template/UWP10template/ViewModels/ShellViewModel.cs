@@ -18,13 +18,17 @@ namespace UWP10template.ViewModels
         public ObservableCollection<MenuItem> Menu
         {
             get { return menu; }
+            set { Set(ref menu, value); }
         }
 
         public ShellViewModel(NavigationService navigationService)
         {
-            Menu.Add(new MenuItem() { Glyph = "", Text = "Main Page", NavigationDestination = typeof(MainPage) });
-            Menu.Add(new MenuItem() { Glyph = "", Text = "About Page", NavigationDestination = typeof(AboutPage) });
-            Menu.Add(new MenuItem() { Glyph = "", Text = "Third Page", NavigationDestination = null });
+            Menu = new ObservableCollection<MenuItem>
+            {
+                new MenuItem() {Glyph = "", Text = "My Team", NavigationDestination = typeof (MainPage)},
+                new MenuItem() {Glyph = "", Text = "About Page", NavigationDestination = typeof (AboutPage)},
+                new MenuItem() {Glyph = "", Text = "Third Page", NavigationDestination = null}
+            };
         }
     }
 }
