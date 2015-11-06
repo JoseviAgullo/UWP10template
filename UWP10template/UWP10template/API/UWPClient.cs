@@ -12,8 +12,7 @@
 
     public class UWPClient
     {
-        private const string BaseUrl = "https://api-v2launch.trakt.tv/";
-        private const string BaseUrlStaging = "https://api-staging.trakt.tv/";
+        private const string BaseUrl = "YOUR_BASE_URL";
         private static string clientToken = "NoAuthorization";
 
         public static void SetClientToken(string value)
@@ -23,12 +22,7 @@
 
         // Various
 
-        public async Task<string> GetToken(string code)
-        {
-            
-
-            return null;
-        }
+        
 
         // Requests
         private async Task<T> ExecuteGetRequest<T>(string operation)
