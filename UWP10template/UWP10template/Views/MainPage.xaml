@@ -28,4 +28,18 @@
         </Grid>
         
     </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar  HorizontalAlignment="Right">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Name="SecondaryCommandElement" Label="SecondaryCommandElement"/>
+            </CommandBar.SecondaryCommands>
+            <AppBarButton Background="Transparent"
+                        Icon="Edit"
+                        Label="Edit"
+                        Foreground="White"
+                        BorderThickness="1"
+                        HorizontalAlignment="Right"/>
+        </CommandBar>
+    </Page.BottomAppBar>
 </Page>
