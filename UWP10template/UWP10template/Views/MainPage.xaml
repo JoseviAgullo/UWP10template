@@ -9,6 +9,32 @@
     DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
 
     <Grid Background="Black">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="WideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="500" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="TextBox.(RelativePanel.RightOf)"
+                                Value="TextBlock" />
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="TextBox.(RelativePanel.Below)"
+                                Value="TextBlock" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
@@ -22,10 +48,13 @@
                        VerticalAlignment="Center"/>
         </Grid>
         
-        <Grid x:Name="Body"
+        <RelativePanel x:Name="Body"
               Grid.Row="1">
-            
-        </Grid>
+            <TextBlock x:Name="TextBlock" 
+                       Text="Insert text here:"/>
+            <TextBox x:Name="TextBox"
+                     Width="250"/>
+        </RelativePanel>
         
     </Grid>
 
