@@ -28,7 +28,7 @@ namespace UWP10template.ViewModels
     using UWP10template.Base;
     using UWP10template.Services;
 
-    public class AboutViewModel : ObservableObject
+    public class AboutViewModel : BaseViewModel
     {
         public AboutViewModel(NavigationService navigationService)
         {

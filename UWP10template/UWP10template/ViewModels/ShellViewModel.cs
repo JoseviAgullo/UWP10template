@@ -23,6 +23,8 @@
 // <date>10/11/2015 12:00:00 AM </date>
 // <summary></summary>
 
+using UWP10template.Base;
+
 namespace UWP10template.ViewModels
 {
     using System.Collections.ObjectModel;
@@ -31,7 +33,7 @@ namespace UWP10template.ViewModels
     using UWP10template.Services;
     using UWP10template.Views;
 
-    public class ShellViewModel : ObservableObject
+    public class ShellViewModel : BaseViewModel
     {
         private static ObservableCollection<MenuItem> menu = new ObservableCollection<MenuItem>();
 

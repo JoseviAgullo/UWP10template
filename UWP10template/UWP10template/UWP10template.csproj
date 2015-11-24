@@ -100,6 +100,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Base\BaseViewModel.cs" />
     <Compile Include="Base\DelegateCommand.cs" />
     <Compile Include="Base\ObservableObject.cs" />
     <Compile Include="Base\ServiceLocator.cs" />
