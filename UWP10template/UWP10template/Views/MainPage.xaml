@@ -54,6 +54,10 @@
                        Text="Insert text here:"/>
             <TextBox x:Name="TextBox"
                      Width="250"/>
+            <Button RelativePanel.AlignHorizontalCenterWithPanel="True"
+                    RelativePanel.AlignVerticalCenterWithPanel="True"
+                    Content="Navigation button"
+                    Command="{Binding NavigateCommand}"/>
         </RelativePanel>
         
     </Grid>

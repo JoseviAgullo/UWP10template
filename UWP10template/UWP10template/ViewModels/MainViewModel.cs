@@ -23,6 +23,8 @@
 // <date>10/11/2015 12:00:00 AM </date>
 // <summary></summary>
 
+using GalaSoft.MvvmLight.Command;
+
 namespace UWP10template.ViewModels
 {
     using UWP10template.Base;
@@ -30,9 +32,22 @@ namespace UWP10template.ViewModels
 
     public class MainViewModel : BaseViewModel
     {
+        private NavigationService _navigationService;
+
         public MainViewModel(NavigationService navigationService)
         {
-            
+            _navigationService = navigationService;
+
+            NavigateCommand = new RelayCommand(NavigateMethod);
         }
+
+        public RelayCommand NavigateCommand { get; set; }
+
+
+        private void NavigateMethod()
+        {
+            _navigationService.NavigateTo<AboutViewModel>();
+        }
+
     }
 }
